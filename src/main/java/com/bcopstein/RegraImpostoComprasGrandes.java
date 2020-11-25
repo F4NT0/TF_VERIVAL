@@ -12,6 +12,7 @@ public class RegraImpostoComprasGrandes implements RegraImposto {
         int qtdade = Math.min(3,itens.size());
         double imposto = 0.0;
         for(int i=0;i<qtdade;i++){
+            //todo: possivel erro (nao deveria somar o imposto?)
             imposto = (itens.get(i).getValorVendido()*0.1);
         }
         // Calcula o imposto sobre os demais itens se houverem

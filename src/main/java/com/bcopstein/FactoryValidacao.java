@@ -12,6 +12,7 @@ public class FactoryValidacao {
 
     public RegraValidacao getRegraValidacao(){
         if (LocalTime.parse("08:00").isAfter(agora) &&
+                //todo: provavel erro (não deveria ser 18?)
             LocalTime.parse("06:00").isBefore(agora)){
                 return new ValidacaoHorarioComercial();
         }else{

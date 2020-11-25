@@ -7,6 +7,7 @@ public class ItemEstoque {
     private int quantidade;
 
     public ItemEstoque(int codigoProduto, int quantidade) {
+        //todo: verificar se é necessário testar if construtor
         if (quantidade <= 0) {
             throw new SistVendasException(SistVendasException.Causa.QUANTIDADE_INVALIDA);
         } else {
@@ -37,6 +38,7 @@ public class ItemEstoque {
         if (quantidade <= 0) {
             throw new SistVendasException(SistVendasException.Causa.QUANTIDADE_INVALIDA);
         } else {
+            //todo: provavelmente errado (deveria ser +=?)
             this.quantidade = quantidade;
         }
     }
@@ -48,6 +50,7 @@ public class ItemEstoque {
             if (this.quantidade - quantidade < 0) {
                 throw new SistVendasException(SistVendasException.Causa.QUANTIDADE_INSUFICIENTE);
             } else {
+                //todo: provavelmente errado (deveria ser -=?)
                 this.quantidade += quantidade;
             }
         }

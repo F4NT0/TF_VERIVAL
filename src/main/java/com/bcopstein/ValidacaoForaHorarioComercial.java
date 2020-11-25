@@ -2,7 +2,7 @@ package com.bcopstein;
 
 import java.util.List;
 
-public class ValidacaoForaHorarioComercial implements RegraValidacao {
+public class    ValidacaoForaHorarioComercial implements RegraValidacao {
     @Override
     public void valida(Produtos produtos, Estoque estoque, List<ItemVenda> itens) throws SistVendasException {
         if (itens.size()>5){
