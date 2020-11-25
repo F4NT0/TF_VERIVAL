@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.bcopstein.ValidacaoHorarioComercialTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.494 s <<< FAILURE! - in com.bcopstein.ValidacaoHorarioComercialTest
+com.bcopstein.ValidacaoHorarioComercialTest.validaTresProdutosExistentes  Time elapsed: 2.432 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception thrown: com.bcopstein.SistVendasException: QUANTIDADE_INSUFICIENTE
+	at com.bcopstein.ValidacaoHorarioComercialTest.validaTresProdutosExistentes(ValidacaoHorarioComercialTest.java:31)
+Caused by: com.bcopstein.SistVendasException: QUANTIDADE_INSUFICIENTE
+	at com.bcopstein.ValidacaoHorarioComercialTest.lambda$validaTresProdutosExistentes$0(ValidacaoHorarioComercialTest.java:31)
+	at com.bcopstein.ValidacaoHorarioComercialTest.validaTresProdutosExistentes(ValidacaoHorarioComercialTest.java:31)
+

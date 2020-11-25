@@ -1,0 +1,16 @@
+com/bcopstein/Produto.class
+com/bcopstein/ItemVenda.class
+com/bcopstein/Estoque.class
+com/bcopstein/ValidacaoHorarioComercial.class
+com/bcopstein/RegraImpostoOriginal.class
+com/bcopstein/SistVendasException$Causa.class
+com/bcopstein/ValidacaoForaHorarioComercial.class
+com/bcopstein/Produtos.class
+com/bcopstein/FactoryValidacao.class
+com/bcopstein/ItemEstoque.class
+com/bcopstein/RegraImpostoComprasGrandes.class
+com/bcopstein/ServicoDeVendas.class
+com/bcopstein/SistVendasException.class
+com/bcopstein/RegraValidacao.class
+com/bcopstein/Repositorio.class
+com/bcopstein/RegraImposto.class
