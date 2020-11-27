@@ -83,7 +83,7 @@ public class ValidacaoHorarioComercialTest {
     })
     public void entradaExceptionTest(int quantidade){
         ItemEstoque ie = new ItemEstoque(123, 1);
-        //Assertions.assertThrows(new SistVendasException(SistVendasException.Causa.QUANTIDADE_INVALIDA),ie.entrada(quantidade));
+        Assertions.assertThrows(new SistVendasException(SistVendasException.Causa.QUANTIDADE_INVALIDA).getClass(),()->{ie.entrada(quantidade);});
     }
 
     @ParameterizedTest
@@ -103,8 +103,7 @@ public class ValidacaoHorarioComercialTest {
     })
     public void saidaQuantInvTest(int quantidade){
         ItemEstoque ie = new ItemEstoque(123, 1);
-        //Assertions.assertThrow(new SistVendasException(SistVendasException.Causa.QUANTIDADE_INVALIDA),ie.saida(quantidade));
-        //assertThrows(new SistVendasException(SistVendasException.Causa.QUANTIDADE_INVALIDA),ie.saida(quantidade));
+        Assertions.assertThrows(new SistVendasException(SistVendasException.Causa.QUANTIDADE_INVALIDA).getClass(),()->{ie.saida(quantidade);});
     }
 
     @ParameterizedTest
@@ -113,7 +112,7 @@ public class ValidacaoHorarioComercialTest {
     })
     public void saidaQuantInsTest(int quantidade){
         ItemEstoque ie = new ItemEstoque(123, 1);
-        //Assertions.assertThrow(new SistVendasException(SistVendasException.Causa.QUANTIDADE_INSUFICIENTE),ie.saida(quantidade));
+        Assertions.assertThrows(new SistVendasException(SistVendasException.Causa.QUANTIDADE_INSUFICIENTE).getClass(),()->{ie.saida(quantidade);});
     }
 
     @ParameterizedTest
