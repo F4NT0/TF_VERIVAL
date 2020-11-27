@@ -49,12 +49,13 @@ public class ValidacaoHorarioComercialTest {
             horaInt[i] = Integer.parseInt(vet[i]);
         }
         FactoryValidacao fac = new FactoryValidacao(LocalTime.of(horaInt[0],horaInt[1],horaInt[2],horaInt[3]));
-        Assertions.assertTrue(fac.getRegraValidacao() instanceof ValidacaoHorarioComercial);
+        Assertions.assertTrue(fac.getRegraValidacao().getClass() == ValidacaoHorarioComercial.class);
     }
 
     @ParameterizedTest
     @CsvSource({
-        "00:00:00:00"
+        "00:00:00:00",
+        "09:00:00:00"
     })
     public void getRegraValidacaoForaHorarioComercialTest(String hora){
         int[] horaInt = new int[4];
@@ -63,7 +64,7 @@ public class ValidacaoHorarioComercialTest {
             horaInt[i] = Integer.parseInt(vet[i]);
         }
         FactoryValidacao fac = new FactoryValidacao(LocalTime.of(horaInt[0],horaInt[1],horaInt[2],horaInt[3]));
-        Assertions.assertTrue(fac.getRegraValidacao() instanceof ValidacaoForaHorarioComercial);
+        Assertions.assertTrue(fac.getRegraValidacao().getClass() == ValidacaoForaHorarioComercial.class);
     }
 
     @ParameterizedTest
@@ -139,8 +140,10 @@ public class ValidacaoHorarioComercialTest {
 
     @ParameterizedTest
     @CsvSource({
-            "1232,1,00:00",
-            "1233,2,00:00"
+            "1232,1,09:00:00:00",
+            "1232,2,09:00:00:00",
+            "1232,1,19:00:00:00",
+            "1232,2,19:00:00:00"
     })
     public void calculaPrecoFinalTest(int resultado,int imposto,String hora){
         int[] horaInt = new int[4];
@@ -162,8 +165,10 @@ public class ValidacaoHorarioComercialTest {
     }
     @ParameterizedTest
     @CsvSource({
-            "1120-112-1232,1,00:00",
-            "1120-112-1232,2,00:00"
+            "1120-112-1232,1,09:00:00:00",
+            "1120-112-1232,2,09:00:00:00",
+            "1120-112-1232,1,19:00:00:00",
+            "1120-112-1232,2,19:00:00:00"
     })
     public void todosValoresTest(String resultado,int imposto,String hora){
         int[] horaInt = new int[4];
@@ -174,13 +179,15 @@ public class ValidacaoHorarioComercialTest {
         RegraImposto ri;
         if(imposto == 1){
             ri = new RegraImpostoComprasGrandes();
-        }else{
+        }else if(imposto == 2){
             ri = new RegraImpostoOriginal();
+        }else{
+            ri = mock(RegraImposto.class);
         }
         Produtos produtos = mock(Produtos.class);
         Estoque estoque = mock(Estoque.class);
         ServicoDeVendas sv = new ServicoDeVendas(produtos,estoque,ri,new FactoryValidacao(LocalTime.of(horaInt[0],horaInt[1],horaInt[2],horaInt[3])));
-        Assertions.assertEquals(resultado.split("-")[0],sv.todosValores(lista_dois())[0]);
+        Assertions.assertEquals(Integer.parseInt(resultado.split("-")[0]),sv.todosValores(lista_dois())[0]);
     }
 
     public ArrayList<ItemVenda> lista_um(){
