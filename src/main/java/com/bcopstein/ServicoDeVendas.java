@@ -35,6 +35,7 @@ public class ServicoDeVendas {
         Integer[] valores = new Integer[3];
         valores[0] = calculaSubtotal(itens);
         valores[1] = calculaImpostos(itens);
+        valores[2] = calculaPrecoFinal(itens);
         return valores;
     }
 }
