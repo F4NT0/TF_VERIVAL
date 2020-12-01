@@ -1,0 +1,22 @@
+
+Tcom.bcopstein.ServicoDeVendas#calculaPrecoFinal(Ljava/util/List;)Ljava/lang/Integer;_
+U/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ServicoDeVendas.java ($"1*¹
+1_
+U/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ServicoDeVendas.java (²¯
+_
+U/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ServicoDeVendas.java (%
+%0java.lang.Integer"Rcom.bcopstein.ServicoDeVendas#calculaSubtotal(Ljava/util/List;)Ljava/lang/Integer;*!
+com.bcopstein.ServicoDeVendas*
+
+itensjava.util.List2!calculaSubtotal(Ljava/util/List;)²¯
+_
+U/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ServicoDeVendas.java( (>
+%1java.lang.Integer"Rcom.bcopstein.ServicoDeVendas#calculaImpostos(Ljava/util/List;)Ljava/lang/Integer;*!
+com.bcopstein.ServicoDeVendas*
+
+itensjava.util.List2!calculaImpostos(Ljava/util/List;)"i
+_
+U/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ServicoDeVendas.java (?
+"":
+itensjava.util.ListB!
+com.bcopstein.ServicoDeVendas

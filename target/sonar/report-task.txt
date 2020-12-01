@@ -1,0 +1,7 @@
+organization=tfverival
+projectKey=F4NT0_TF_VERIVAL
+serverUrl=https://sonarcloud.io
+serverVersion=8.5.0.37579
+dashboardUrl=https://sonarcloud.io/dashboard?id=F4NT0_TF_VERIVAL
+ceTaskId=AXYe1beYVuCAJhNOJyH_
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXYe1beYVuCAJhNOJyH_

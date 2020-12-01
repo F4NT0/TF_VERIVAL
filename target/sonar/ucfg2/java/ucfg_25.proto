@@ -1,0 +1,43 @@
+
+>com.bcopstein.RegraImpostoOriginal#calcular(Ljava/util/List;)Dd
+Z/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoOriginal.java ("startingBlock*Æ
+startingBlockd
+Z/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoOriginal.java (1®
+«
+d
+Z/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoOriginal.java (
+%3"
+__annotate*
+java.lang.Override*
+
+itensjava.util.List˜
+•
+d
+Z/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoOriginal.java+ (0
+itensjava.util.List"__annotation*
+
+%3*
+1*è
+1d
+Z/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoOriginal.java (åâ
+d
+Z/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoOriginal.java ($
+%0java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+itensjava.util.List2stream()ÖÓ
+d
+Z/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoOriginal.java (]#
+%1java.util.stream.DoubleStream"ijava.util.stream.Stream#mapToDouble(Ljava/util/function/ToDoubleFunction;)Ljava/util/stream/DoubleStream;*
+
+%0java.util.stream.Stream*
+""22mapToDouble(Ljava/util/function/ToDoubleFunction;)ËÈ
+d
+Z/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoOriginal.java (c
+%2double"$java.util.stream.DoubleStream#sum()D*%
+#
+%1java.util.stream.DoubleStream2sum()"n
+d
+Z/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoOriginal.java	 	(
+"":
+itensjava.util.ListB&$
+"com.bcopstein.RegraImpostoOriginal

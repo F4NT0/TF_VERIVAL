@@ -1,0 +1,24 @@
+
+Rcom.bcopstein.ServicoDeVendas#calculaImpostos(Ljava/util/List;)Ljava/lang/Integer;_
+U/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ServicoDeVendas.java (""1*£
+1_
+U/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ServicoDeVendas.java (!Á
+¾
+_
+U/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ServicoDeVendas.java (! 
+%0com.bcopstein.RegraImposto"__id*3*1
+com.bcopstein.ServicoDeVendas"
+regraImposto…‚
+_
+U/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ServicoDeVendas.java (1
+%1double"6com.bcopstein.RegraImposto#calcular(Ljava/util/List;)D*"
+ 
+%0com.bcopstein.RegraImposto*
+
+itensjava.util.List2calcular(Ljava/util/List;)"q
+_
+U/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ServicoDeVendas.java (2
+
+%1double:
+itensjava.util.ListB!
+com.bcopstein.ServicoDeVendas

@@ -1,0 +1,249 @@
+
+tcom.bcopstein.ValidacaoForaHorarioComercial#valida(Lcom/bcopstein/Produtos;Lcom/bcopstein/Estoque;Ljava/util/List;)Vm
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java ("startingBlock*Ï
+2m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java. (A°
+­
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java. (G.
+%21'com.bcopstein.SistVendasException$Causa"__id*
+""°
+­
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java. (a.
+%22'com.bcopstein.SistVendasException$Causa"__id*
+""¿¼
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (-(
+%23!com.bcopstein.SistVendasException"!com.bcopstein.SistVendasException­
+ª
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (b
+%24"Tcom.bcopstein.SistVendasException#<init>(Lcom/bcopstein/SistVendasException$Causa;)V**
+(
+%23!com.bcopstein.SistVendasException*0
+.
+%22'com.bcopstein.SistVendasException$Causa*
+0*®
+3m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (ÔÑ
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (#
+%19double"!com.bcopstein.Produto#getPreco()D*"
+ 
+produtocom.bcopstein.Produto2
+getPreco()Ú×
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java& (8
+
+%20int"(com.bcopstein.ItemVenda#getQuantidade()I*
+
+ivcom.bcopstein.ItemVenda2getQuantidade()*
+2
+1*Ì	
+startingBlockm
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (QÃ
+À
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (
+%25"
+__annotate*
+java.lang.Override*$
+"
+produtoscom.bcopstein.Produtos­
+ª
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java  (("
+produtoscom.bcopstein.Produtos"__annotation*
+
+%25Á
+¾
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (
+%26"
+__annotate*
+java.lang.Override*"
+ 
+estoquecom.bcopstein.Estoque«
+¨
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java2 (9 
+estoquecom.bcopstein.Estoque"__annotation*
+
+%26¸
+µ
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (
+%27"
+__annotate*
+java.lang.Override*
+
+itensjava.util.List¢
+Ÿ
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.javaK (P
+itensjava.util.List"__annotation*
+
+%27*
+10*Ï
+4m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java. (A°
+­
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java. (G.
+%15'com.bcopstein.SistVendasException$Causa"__id*
+""°
+­
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java. (_.
+%16'com.bcopstein.SistVendasException$Causa"__id*
+""¿¼
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (-(
+%17!com.bcopstein.SistVendasException"!com.bcopstein.SistVendasException­
+ª
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (`
+%18"Tcom.bcopstein.SistVendasException#<init>(Lcom/bcopstein/SistVendasException$Causa;)V**
+(
+%17!com.bcopstein.SistVendasException*0
+.
+%16'com.bcopstein.SistVendasException$Causa*
+0*ì
+5m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (ïì
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (3
+%14boolean"(com.bcopstein.ItemEstoque#disponivel(I)Z**
+(
+itemEstoquecom.bcopstein.ItemEstoque*
+""2disponivel(I)*
+3
+4*Ï
+6m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java. (A°
+­
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java. (G.
+%10'com.bcopstein.SistVendasException$Causa"__id*
+""°
+­
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java. (f.
+%11'com.bcopstein.SistVendasException$Causa"__id*
+""¿¼
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (-(
+%12!com.bcopstein.SistVendasException"!com.bcopstein.SistVendasException­
+ª
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (g
+%13"Tcom.bcopstein.SistVendasException#<init>(Lcom/bcopstein/SistVendasException$Causa;)V**
+(
+%12!com.bcopstein.SistVendasException*0
+.
+%11'com.bcopstein.SistVendasException$Causa*
+0*í
+7m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java$ (,ßÜ
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java6 (K	
+%5int"+com.bcopstein.ItemVenda#getCodigoProduto()I*
+
+ivcom.bcopstein.ItemVenda2getCodigoProduto()ª§
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java$ (L
+%6com.bcopstein.Produto"Hcom.bcopstein.Repositorio#recupera(Ljava/lang/Object;)Ljava/lang/Object;*$
+"
+produtoscom.bcopstein.Produtos*
+	
+%5int2recupera(Ljava/lang/Object;)¹
+¶
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (M 
+produtocom.bcopstein.Produto"__id*
+
+%6com.bcopstein.ProdutoÙÖ
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java# (5	
+%7int"(com.bcopstein.ItemVenda#getQuantidade()I*
+
+ivcom.bcopstein.ItemVenda2getQuantidade()ÒÏ
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java7 (J	
+%8int""com.bcopstein.Produto#getCodigo()I*"
+ 
+produtocom.bcopstein.Produto2getCodigo()¬©
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java& (K
+%9com.bcopstein.ItemEstoque"Hcom.bcopstein.Repositorio#recupera(Ljava/lang/Object;)Ljava/lang/Object;*"
+ 
+estoquecom.bcopstein.Estoque*
+	
+%8int2recupera(Ljava/lang/Object;)Å
+Â
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (L(
+itemEstoquecom.bcopstein.ItemEstoque"__id*!
+
+%9com.bcopstein.ItemEstoque*
+5
+6*É
+9m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java	* 	(=¯
+¬
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java	* 	(C-
+%1'com.bcopstein.SistVendasException$Causa"__id*
+""¯
+¬
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java	* 	(^-
+%2'com.bcopstein.SistVendasException$Causa"__id*
+""¾»
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java	 	()'
+%3!com.bcopstein.SistVendasException"!com.bcopstein.SistVendasExceptionª
+§
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java	 	(_
+%4"Tcom.bcopstein.SistVendasException#<init>(Lcom/bcopstein/SistVendasException$Causa;)V*)
+'
+%3!com.bcopstein.SistVendasException*/
+-
+%2'com.bcopstein.SistVendasException$Causa*
+0*¶
+10m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (¸µ
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (	
+%0int"java.util.List#size()I*
+
+itensjava.util.List2size()*
+9
+1*Œ
+0 "„
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (
+implicit return*ß
+1m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (Ÿ
+œ
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (
+ivcom.bcopstein.ItemVenda"__id*
+""À
+½
+m
+c/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ValidacaoForaHorarioComercial.java (
+ivcom.bcopstein.ItemVenda"
+__arrayGet*
+
+itensjava.util.List*
+""*
+7
+0:"
+produtoscom.bcopstein.Produtos: 
+estoquecom.bcopstein.Estoque:
+itensjava.util.ListB/-
++com.bcopstein.ValidacaoForaHorarioComercial

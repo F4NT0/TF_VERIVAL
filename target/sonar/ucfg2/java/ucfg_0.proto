@@ -1,0 +1,120 @@
+
+Dcom.bcopstein.RegraImpostoComprasGrandes#calcular(Ljava/util/List;)Dj
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java ("startingBlock*°
+3j
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java (½
+º
+j
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java ($
+%8com.bcopstein.ItemVenda"
+__arrayGet*
+
+itensjava.util.List*
+""ÝÚ
+j
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java (6
+%9double"*com.bcopstein.ItemVenda#getValorVendido()D*
+
+%8com.bcopstein.ItemVenda2getValorVendido()¾
+»
+j
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java7 (C
+%10com.bcopstein.ItemVenda"
+__arrayGet*
+
+itensjava.util.List*
+""ØÕ
+j
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java7 (S
+
+%11int"(com.bcopstein.ItemVenda#getQuantidade()I* 
+
+%10com.bcopstein.ItemVenda2getQuantidade()*
+4*Ú
+startingBlockj
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java (1µ
+²
+j
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java (
+%12"
+__annotate*
+java.lang.Override*
+
+itensjava.util.ListŸ
+œ
+j
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java+ (0
+itensjava.util.List"__annotation*
+
+%12*
+9*¯
+4j
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java (µ²
+j
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java ('	
+%7int"java.util.List#size()I*
+
+itensjava.util.List2size()*
+3
+1*°
+7j
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java (½
+º
+j
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java ($
+%3com.bcopstein.ItemVenda"
+__arrayGet*
+
+itensjava.util.List*
+""ÝÚ
+j
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java (6
+%4double"*com.bcopstein.ItemVenda#getValorVendido()D*
+
+%3com.bcopstein.ItemVenda2getValorVendido()½
+º
+j
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java7 (C
+%5com.bcopstein.ItemVenda"
+__arrayGet*
+
+itensjava.util.List*
+""ÖÓ
+j
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java7 (S	
+%6int"(com.bcopstein.ItemVenda#getQuantidade()I*
+
+%5com.bcopstein.ItemVenda2getQuantidade()*
+4
+7*Ù
+9j
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java	 	(êç
+j
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java	 
+(u
+
+%0void",java.util.List#sort(Ljava/util/Comparator;)V*
+
+itensjava.util.List*
+""2sort(Ljava/util/Comparator;)µ²
+j
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java  (,	
+%1int"java.util.List#size()I*
+
+itensjava.util.List2size()º
+·
+j
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java (-	
+%2int"java.lang.Math#min(II)I*"
+java.lang.Math*2*
+	
+%1int*
+4
+7*å
+1j
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java ("t
+j
+`/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/RegraImpostoComprasGrandes.java (
+"":
+itensjava.util.ListB,*
+(com.bcopstein.RegraImpostoComprasGrandes

@@ -8,6 +8,9 @@
 
     <properties>
         <java.version>14</java.version>
+        <sonar.projectKey>F4NT0_TF_VERIVAL</sonar.projectKey>
+        <sonar.organization>tfverival</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
     <dependencies>

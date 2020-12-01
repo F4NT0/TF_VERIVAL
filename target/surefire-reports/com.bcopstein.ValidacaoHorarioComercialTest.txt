@@ -1,11 +1,36 @@
 -------------------------------------------------------------------------------
 Test set: com.bcopstein.ValidacaoHorarioComercialTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.494 s <<< FAILURE! - in com.bcopstein.ValidacaoHorarioComercialTest
-com.bcopstein.ValidacaoHorarioComercialTest.validaTresProdutosExistentes  Time elapsed: 2.432 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: Unexpected exception thrown: com.bcopstein.SistVendasException: QUANTIDADE_INSUFICIENTE
-	at com.bcopstein.ValidacaoHorarioComercialTest.validaTresProdutosExistentes(ValidacaoHorarioComercialTest.java:31)
-Caused by: com.bcopstein.SistVendasException: QUANTIDADE_INSUFICIENTE
-	at com.bcopstein.ValidacaoHorarioComercialTest.lambda$validaTresProdutosExistentes$0(ValidacaoHorarioComercialTest.java:31)
-	at com.bcopstein.ValidacaoHorarioComercialTest.validaTresProdutosExistentes(ValidacaoHorarioComercialTest.java:31)
+Tests run: 18, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 2.162 s <<< FAILURE! - in com.bcopstein.ValidacaoHorarioComercialTest
+com.bcopstein.ValidacaoHorarioComercialTest.todosValoresTest(String, int,String)  Time elapsed: 1.674 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: array contents differ at index [1], expected: <112> but was: <124>
+	at com.bcopstein.ValidacaoHorarioComercialTest.todosValoresTest(ValidacaoHorarioComercialTest.java:174)
+
+com.bcopstein.ValidacaoHorarioComercialTest.todosValoresTest(String, int,String)  Time elapsed: 0.017 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: array contents differ at index [1], expected: <112> but was: <124>
+	at com.bcopstein.ValidacaoHorarioComercialTest.todosValoresTest(ValidacaoHorarioComercialTest.java:174)
+
+com.bcopstein.ValidacaoHorarioComercialTest.todosValoresTest(String, int,String)  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: array contents differ at index [1], expected: <112> but was: <124>
+	at com.bcopstein.ValidacaoHorarioComercialTest.todosValoresTest(ValidacaoHorarioComercialTest.java:174)
+
+com.bcopstein.ValidacaoHorarioComercialTest.todosValoresTest(String, int,String)  Time elapsed: 0.017 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: array contents differ at index [1], expected: <112> but was: <124>
+	at com.bcopstein.ValidacaoHorarioComercialTest.todosValoresTest(ValidacaoHorarioComercialTest.java:174)
+
+com.bcopstein.ValidacaoHorarioComercialTest.calculaPrecoFinalTest(int, int,String)  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1232> but was: <1244>
+	at com.bcopstein.ValidacaoHorarioComercialTest.calculaPrecoFinalTest(ValidacaoHorarioComercialTest.java:143)
+
+com.bcopstein.ValidacaoHorarioComercialTest.calculaPrecoFinalTest(int, int,String)  Time elapsed: 0.005 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1232> but was: <1244>
+	at com.bcopstein.ValidacaoHorarioComercialTest.calculaPrecoFinalTest(ValidacaoHorarioComercialTest.java:143)
+
+com.bcopstein.ValidacaoHorarioComercialTest.calculaPrecoFinalTest(int, int,String)  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1232> but was: <1244>
+	at com.bcopstein.ValidacaoHorarioComercialTest.calculaPrecoFinalTest(ValidacaoHorarioComercialTest.java:143)
+
+com.bcopstein.ValidacaoHorarioComercialTest.calculaPrecoFinalTest(int, int,String)  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1232> but was: <1244>
+	at com.bcopstein.ValidacaoHorarioComercialTest.calculaPrecoFinalTest(ValidacaoHorarioComercialTest.java:143)
 

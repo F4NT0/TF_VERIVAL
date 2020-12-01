@@ -1,0 +1,80 @@
+
+Pcom.bcopstein.FactoryValidacao#getRegraValidacao()Lcom/bcopstein/RegraValidacao;`
+V/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/FactoryValidacao.java (+"4*ç
+2`
+V/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/FactoryValidacao.java (6Ω∫
+`
+V/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/FactoryValidacao.java (4-
+%6'com.bcopstein.ValidacaoHorarioComercial"'com.bcopstein.ValidacaoHorarioComercialœ
+Ã
+`
+V/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/FactoryValidacao.java (6
+%7"1com.bcopstein.ValidacaoHorarioComercial#<init>()V*/
+-
+%6'com.bcopstein.ValidacaoHorarioComercial"ì
+`
+V/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/FactoryValidacao.java (7/
+-
+%6'com.bcopstein.ValidacaoHorarioComercial*ú
+3`
+V/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/FactoryValidacao.java (Ó
+Î
+`
+V/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/FactoryValidacao.java ($
+%3java.time.LocalTime"Hjava.time.LocalTime#parse(Ljava/lang/CharSequence;)Ljava/time/LocalTime;*"
+java.time.LocalTime*	
+18:00µ
+≤
+`
+V/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/FactoryValidacao.java/ (4
+%4java.time.LocalTime"__id*-*+ 
+com.bcopstein.FactoryValidacao"
+agoraÉÄ
+`
+V/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/FactoryValidacao.java (5	
+%5int"5java.time.LocalTime#compareTo(Ljava/time/LocalTime;)I*
+
+%3java.time.LocalTime*
+
+%4java.time.LocalTime2 compareTo(Ljava/time/LocalTime;)*
+2
+1*ú
+4`
+V/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/FactoryValidacao.java (Ó
+Î
+`
+V/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/FactoryValidacao.java ($
+%0java.time.LocalTime"Hjava.time.LocalTime#parse(Ljava/lang/CharSequence;)Ljava/time/LocalTime;*"
+java.time.LocalTime*	
+08:00µ
+≤
+`
+V/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/FactoryValidacao.java/ (4
+%1java.time.LocalTime"__id*-*+ 
+com.bcopstein.FactoryValidacao"
+agoraÉÄ
+`
+V/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/FactoryValidacao.java (5	
+%2int"5java.time.LocalTime#compareTo(Ljava/time/LocalTime;)I*
+
+%0java.time.LocalTime*
+
+%1java.time.LocalTime2 compareTo(Ljava/time/LocalTime;)*
+3
+1*°
+1`
+V/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/FactoryValidacao.java (6≈¬
+`
+V/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/FactoryValidacao.java (41
+%8+com.bcopstein.ValidacaoForaHorarioComercial"+com.bcopstein.ValidacaoForaHorarioComercial◊
+‘
+`
+V/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/FactoryValidacao.java (6
+%9"5com.bcopstein.ValidacaoForaHorarioComercial#<init>()V*3
+1
+%8+com.bcopstein.ValidacaoForaHorarioComercial"ó
+`
+V/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/FactoryValidacao.java (73
+1
+%8+com.bcopstein.ValidacaoForaHorarioComercialB" 
+com.bcopstein.FactoryValidacao

@@ -1,0 +1,27 @@
+
+Rcom.bcopstein.ServicoDeVendas#calculaSubtotal(Ljava/util/List;)Ljava/lang/Integer;_
+U/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ServicoDeVendas.java (""1*×
+1_
+U/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ServicoDeVendas.java (àÝ
+_
+U/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ServicoDeVendas.java ($
+%0java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+itensjava.util.List2stream()ÑÎ
+_
+U/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ServicoDeVendas.java (L#
+%1java.util.stream.DoubleStream"ijava.util.stream.Stream#mapToDouble(Ljava/util/function/ToDoubleFunction;)Ljava/util/stream/DoubleStream;*
+
+%0java.util.stream.Stream*
+""22mapToDouble(Ljava/util/function/ToDoubleFunction;)ÆÃ
+_
+U/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ServicoDeVendas.java (R
+%2double"$java.util.stream.DoubleStream#sum()D*%
+#
+%1java.util.stream.DoubleStream2sum()"q
+_
+U/home/f4nt0/Documents/GIT/TF_VERIVAL/src/main/java/com/bcopstein/ServicoDeVendas.java (T
+
+%2double:
+itensjava.util.ListB!
+com.bcopstein.ServicoDeVendas
